@@ -1,4 +1,4 @@
-KaalBlog::Application.routes.draw do
+Kaalblog::Application.routes.draw do
   devise_for :users
   root 'posts#index'
 
